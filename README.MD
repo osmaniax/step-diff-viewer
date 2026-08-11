@@ -1,0 +1,18 @@
+# STEP Diff Viewer
+
+3D CADのSTEPファイル（加工前・加工後）の差分を比較・可視化するためのツールです。
+
+## Language / 言語
+
+- [日本語 (Japanese)](./README_JA.MD)
+- [English](./README_EN.MD)
+
+---
+
+## Quick Start (Beta Release)
+
+現在ベータ版のAPKファイルを公開しています。
+
+- **Download:** [`step-diff-viewer-v0.1.0-beta.apk`](./step-diff-viewer-v0.1.0-beta.apk)
+
+詳細な機能仕様や開発ルールについては、上記の各言語版ドキュメントをご参照ください。
