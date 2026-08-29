@@ -42,7 +42,8 @@ Shape Analysis displays the model dimensions, approximate volume, and principal 
 - Supports section views along the X, Y, and Z axes
 
 The suggested sequence and tools are reference information inferred from the STEP geometry. They do not account for material, machine, workholding, cutting conditions, or CAM toolpaths. External turning, facing, and outside-diameter finishing tools are not currently included.
-
+![Image](./img/Screenshot_20260829-121018.png)
+![Image](./img/Screenshot_20260829-121057.png)
 ### Using Shape Analysis
 
 1. Select **Shape Analysis** at the top of the screen.
