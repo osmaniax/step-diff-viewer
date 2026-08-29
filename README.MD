@@ -15,4 +15,4 @@
 
 - **Download:** [`step-diff-viewer-v0.1.0-beta.apk`](./step-diff-viewer-v0.1.0-beta.apk)
 
-詳細な機能仕様や開発ルールについては、上記の各言語版ドキュメントをご参照ください。
+新機能の概要と使い方については、上記の各言語版READMEをご参照ください。

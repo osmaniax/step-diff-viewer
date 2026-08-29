@@ -31,6 +31,37 @@ You inspect the initial state, verify the differences, and examine the final res
 
 ![Image](./img/Screenshot_20260811-212354.png)
 
+### New: Shape Analysis and Suggested Machining Sequence
+
+Shape Analysis displays the model dimensions, approximate volume, and principal hole diameters from a single STEP model.
+
+- Identifies drilled, through/bored, and counterbored/stepped holes
+- Suggests a hole-machining sequence from detected geometry, estimated depth, removal volume, and feature dependencies
+- Shows a suggested tool for each operation
+- Links the 3D hole labels with the operation list in the upper-left HUD
+- Supports section views along the X, Y, and Z axes
+
+The suggested sequence and tools are reference information inferred from the STEP geometry. They do not account for material, machine, workholding, cutting conditions, or CAM toolpaths. External turning, facing, and outside-diameter finishing tools are not currently included.
+
+### Using Shape Analysis
+
+1. Select **Shape Analysis** at the top of the screen.
+2. Choose a STEP file or load the demo data.
+3. Tap **Dimensions / Hole Diameters** to show detected-hole labels on the model.
+4. Tap either a 3D label or an operation in the upper-left list. The corresponding item is highlighted, and the enlarged label shows the suggested tool and a simple tool illustration.
+5. To inspect a section, select a cutting axis and adjust the cutting position.
+
+Switching between Shape Analysis and Diff Comparison resets the destination workspace to an unloaded state, preventing a model from the other mode from remaining on screen.
+
+### Using Diff Comparison
+
+1. Select **Diff Comparison** at the top of the screen.
+2. Choose the Before and After STEP files.
+3. Switch between **Before**, **Diff Overlay**, and **After**.
+4. Select a cutting axis and position when a section view is needed.
+
+Diff Comparison is a visual mesh overlay with bounding-dimension differences; it does not calculate an exact Boolean solid subtraction.
+
 
 ### Strict Alignment & Coordinate
 IntegrityA critical design choice in STEP DIFF VIEW is how model coordinates are handled.
