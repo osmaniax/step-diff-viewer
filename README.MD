@@ -13,6 +13,6 @@
 
 現在ベータ版のAPKファイルを公開しています。
 
-- **Download:** [`step-diff-viewer-v0.1.0-beta.apk`](./step-diff-viewer-v0.1.0-beta.apk)
+- **Download:** [`step-diff-viewer-v0.1.9-beta.apk`](./step-diff-viewer-v0.1.9-beta.apk)
 
 新機能の概要と使い方については、上記の各言語版READMEをご参照ください。
